@@ -1,0 +1,3 @@
+CREATE TABLE content (id PRIMARY KEY,title VARCHAR,message VARCHAR)
+CREATE TABLE admins (id PRIMARY KEY,nick VARCHAR,password VARCHAR)
+CREATE TABLE contact (id PRIMARY KEY,nameSurname VARCHAR,email VARCHAR,message VARCHAR)
